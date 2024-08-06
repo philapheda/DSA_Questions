@@ -1,0 +1,5 @@
+Eno = int(input())
+Elist = list(map(int, input().split()))
+Fno = int(input())
+Flist = list(map(int, input().split()))
+print(len(set(Elist)-set(Flist)))
