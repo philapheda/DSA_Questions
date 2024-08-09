@@ -1,5 +1,6 @@
 class Solution:
     def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
+    def intersect(self, nums1: list[int], nums2: list[int]) -> list[int]:
         nums1 = sorted(nums1)
         nums2 = sorted(nums2)
         soln = []
